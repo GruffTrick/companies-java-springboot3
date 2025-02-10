@@ -1,0 +1,38 @@
+{
+  "properties": [
+    {
+      "defaultValue": "filings",
+      "name": "companieshouse.service",
+      "description": "The Companies House service code for the service implemented in this code.",
+      "type": "java.lang.String",
+      "deprecation": {
+        "level": "warning",
+        "replacement": "ukgov.companieshouse.service",
+        "reason": "Moved to new key system under ukgov."
+      }
+    },
+    {
+      "defaultValue": "filings",
+      "name": "ukgov.companieshouse.service",
+      "description": "The Companies House service code for the service implemented in this code.",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": "false",
+      "name": "companieshouse.docsapp.test",
+      "description": "Whether to enable the test DB in-memory bean and disable the file-based database.",
+      "type": "java.lang.String",
+      "deprecation": {
+        "level": "warning",
+        "replacement": "ukgov.companieshouse.docsapp.test",
+        "reason": "Moved to new key system under ukgov."
+      }
+    },
+    {
+      "defaultValue": "filings",
+      "name": "ukgov.companieshouse.docsapp.test",
+      "description": "The Companies House service code for the service implemented in this code.",
+      "type": "java.lang.String"
+    }
+  ]
+}

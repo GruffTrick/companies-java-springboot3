@@ -1,0 +1,13 @@
+.DS_Store
+.dockerignore
+.git/
+.gitattributes
+.gitignore
+.idea/
+.mvn/
+Dockerfile
+HELP.md
+h2/
+mvnw
+mvnw.cmd
+target/
